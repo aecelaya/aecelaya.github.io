@@ -1,9 +1,9 @@
 # Adrian's Personal Website
 
-This is the repository where I host my personal website from. This website was built using the Strata template by HTML5 UP. Feel free to use this code for your own website!
+This is the repository where I host my personal website from. This website was built using the Read Only template by HTML5 UP. Feel free to use this code for your own website!
 
 ## More about this template
-Strata by HTML5 UP
+Read Only by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 

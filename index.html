@@ -29,7 +29,7 @@
 				<header>
 					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
 					<h1 id="logo"><a href="#">Adrian Celaya</a></h1>
-					<p>Prospective Ph.D. Student. Research Intern. Veteran.</p>
+					<p>Ph.D. Student at Rice University, U.S. Navy Veteran</p>
 				</header>
 				<nav id="nav">
 					<ul>
@@ -41,9 +41,8 @@
 				</nav>
 				<footer>
 					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/aecelaya/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/aecelaya" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.kaggle.com/acelaya0" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+						<li><a href="https://www.linkedin.com/in/aecelaya/" class="icon brands fa-linkedin" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/aecelaya" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span class="label">Github</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -63,16 +62,18 @@
 										<p>About Me</p>
 									</header>
 									<p>
-										I am currently a research intern within the Department of Imaging
-										Physics at the University of Texas MD Anderson Cancer Center in
-										Houston, TX. My research draws from areas such as optimization,
-										image analysis, and machine learning to develop computational tools
-										for cancer treatment. I previously served as the Information
-										System Security Manager onboard the U.S. Navy aircraft carrier
-										USS Carl Vinson.
+										I am currently a Ph.D. student in the Department of
+										Computational and Applied Mathematics (CAAM) at Rice University
+										in Houston, TX. My research focuses on developing novel
+										techniques for 3D medical image segmentation. Previously, I
+										served as the Information System Security Manager onboard
+										the U.S. Navy aircraft carrier USS Carl Vinson. After leaving
+										the Navy in August 2020, I became a research assistant in
+										the Department of Imaging Physics at The University of Texas
+										MD Anderson Cancer Center.
 									</p>
-									<ul class="actions">
-											<li><a href="files/Adrian_Celaya_CV.pdf" class="button primary icon fa-file-pdf">CV</a></li>
+										<ul class="actions">
+											<li><a href="files/Adrian_Celaya_CV.pdf" target="_blank" rel="noopener noreferrer" class="button primary icon fa-file-pdf">CV</a></li>
 									</ul>
 								</div>
 							</section>
@@ -88,7 +89,7 @@
 										<li class="icon solid fa-greater-than-equal">Optimization</li>
 										<li class="icon solid fa-braille">Numerical linear algebra</li>
 										<li class="icon solid fa-server">Scientific computing</li>
-										<li class="icon solid fa-image">Image segmentation</li>
+										<li class="icon solid fa-x-ray">Biomedical image segmentation</li>
 										<li class="icon solid fa-brain">Machine learning</li>
 									</ul>
 
@@ -96,12 +97,11 @@
 										<h2></h2>
 										<p>Current Research Topics</p>
 									</header>
-									<h4>Small CNNs for Efficient 3D Medical Image Segmentation</h4>
-
+									<h4>PocketNet: A Smaller Neural Network for 3D Medical Image Analysis</h4>
 									<div class="features">
 										<article>
-											<a class="image"><img src="images/pred.png" alt="" /><p>Predicted label</p></a>
-											<a class="image"><img src="images/truth.png" alt="" /><p>Ground truth label</p></a>
+											<a class="image"><img src="images/truth.png" alt="" />Ground truth</a>
+											<a class="image"><img src="images/pred.png"/>Model prediction (~150K parameters)</a>
 											<p>
 												The automatic segmentation of medical images aims to associate a pixel to a label
 												within a medical image without human interaction. Convolutional neural networks (CNNs)
@@ -114,10 +114,8 @@
 												for solving partial differential equations, we can create neural networks capable of achieving
 												comparable segmentation accuracy to conventional CNNs while requiring substantially fewer
 												parameters. The figure above highlights the results of our model for the task of labeling a
-												brain tumor (shown in red).
+												brain tumor (shown in red). A preprint of these results is available <a href="https://arxiv.org/abs/2104.10745" target="_blank" rel="noopener noreferrer">here</a>.
 											</p>
-
-												<p>With Jonas Actor (Rice University), Evan Gates (MD Anderson), and David Fuentes (MD Anderson).</p>
 										</article>
 									</div>
 
@@ -131,7 +129,6 @@
 											<h2></h2>
 											<p>Publications and Presentations</p>
 										</header>
-										<p>Here are materials from recent research I have done.</p>
 										<div class="table-wrapper">
 											<table>
 												<thead>
@@ -139,9 +136,27 @@
 												</thead>
 												<tbody>
 													<tr>
+														<td style="vertical-align: middle">
+															<ul class="actions vertical small">
+																<li><a href="https://arxiv.org/abs/2104.10745" target="_blank" rel="noopener noreferrer" class="button alt small fas fa-link"></a></li>
+															</ul>
+														</td>
+														<td style="vertical-align: top">
+															<strong>PocketNet: A Smaller Neural Network for 3D Medical Image Analysis</strong><br>
+															Celaya, A., Actor, J. A., Muthusivarajan, R., Gates, E., Chung, C., Schellingerhout, D., Riviere, B, and Fuentes, D.</br> Under review, 2021
+														</td>
+													</tr>
+
+													<tr>
 														<td></td>
-														<td><strong>Small Convolutional Neural Networks for Efficient 3D Medical Image Segmentation</strong><br>
-														Celaya, A., Jonas, A., Gates, E., Fuentes, D.</br> In progress.</td>
+														<td><strong>Technical Note: An efficient MR image data quality screening dashboard</strong><br>
+														Gates, E., Celaya, A., Suki, D., Schellingerhout, D., and Fuentes, D.</br> Under review, 2021</td>
+													</tr>
+
+													<tr>
+														<td></td>
+														<td><strong>Cellular Density in Adult Glioma, estimated with MR imaging data, has prognostic power approaching WHO histological grading in a cohort of 1,181 patients</strong><br>
+														Gates, E., Suki, D., Celaya, A., Weinberg, J., Prabhu, S., Sawaya, R., Huse, J., Long, J., Fuentes, D., and Schellingerhout, D.</br> Under review, 2021</td>
 													</tr>
 												</tbody>
 											</table>
@@ -155,6 +170,23 @@
 												<tbody>
 													<tr>
 														<td></td>
+														<td>
+															<strong>Small Convolutional Neural Networks for Efficient 3D Medical Image Segmentation</strong><br>
+															Celaya, A., Actor, J. A., Muthusivarajan, R., Gates, E., Chung, C., Schellingerhout, D., Riviere, B, and Fuentes, D.</br>
+															63rd  American Association of Physicists in Medicine Annual Meeting, July 2021
+													</tr>
+
+													<tr>
+														<td></td>
+														<td>
+															<strong>Imaging Based Prediction of Proliferative Foci as a Target for Surgical Intervention Across Glioma Grades</strong><br>
+															Gates, E., Celaya, A., Suki, D., Weinberg, J., Prabhu, S., Fuentes, D., and Schellingerhout, D.</br>
+															63rd American Association of Physicists in Medicine Annual Meeting, July 2021
+														</td>
+													</tr>
+
+													<tr>
+														<td></td>
 														<td><strong>Automated Cerebrospinal Fluid ROI Selection on Brain Magnetic Resonance Images</strong><br>
 														Gates, E., Celaya, A., Schellingerhout, D., and Fuentes, D.</br> Keck Research Conference, October 2020</br></td>
 													</tr>
@@ -164,7 +196,6 @@
 									</div>
 								</section>
 
-						<!-- Three -->
 							<section id="four">
 								<div class="container">
 									<header class="major">
@@ -173,7 +204,7 @@
 									</header>
 									<ul class="feature-icons">
 										<li class="icon solid fa-map-marker-alt">Houston, TX</li>
-										<li class="icon solid fa-envelope">acelaya0@gmail.com</li>
+										<li class="icon solid fa-envelope">aecelaya@rice.edu</li>
 										<li class="icon solid fa-envelope">aecelaya@mdanderson.org</li>
 									</ul>
 								</div>
@@ -183,7 +214,7 @@
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>Last updated: November 2020</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>Last updated: August 2021</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>

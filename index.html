@@ -91,6 +91,7 @@
 										<li class="icon solid fa-server">Scientific computing</li>
 										<li class="icon solid fa-x-ray">Biomedical image segmentation</li>
 										<li class="icon solid fa-brain">Deep learning</li>
+										<li class="icon solid fa-globe-americas">Geophysical Inversion for CO2 Monitoring</li>
 									</ul>
 
 									<header class="major">
@@ -103,6 +104,7 @@
 											<a class="image"><img src="images/truth.png" alt="" />Ground truth</a>
 											<a class="image"><img src="images/pred.png"/>Model prediction (~150K parameters)</a>
 											<p>
+												<br>
 												The automatic segmentation of medical images aims to associate a pixel to a label
 												within a medical image without human interaction. Convolutional neural networks (CNNs)
 												and deep learning have helped facilitate enormous strides in the efficacy of automatic
@@ -114,10 +116,23 @@
 												for solving partial differential equations, we can create neural networks capable of achieving
 												comparable segmentation accuracy to conventional CNNs while requiring substantially fewer
 												parameters. The figure above highlights the results of our model for the task of labeling a
-												brain tumor (shown in red). A preprint of these results is available <a href="https://arxiv.org/abs/2104.10745" target="_blank" rel="noopener noreferrer">here</a>.
+												brain tumor (shown in red). These results are available <a href="https://ieeexplore.ieee.org/document/9964128" target="_blank" rel="noopener noreferrer">here</a>.
 											</p>
 										</article>
 									</div>
+
+									<h4>Deep Learning-Based Inversion of Surface Gravity For CO2 Monitoring</h4>
+									<div class="features">
+										<a class="image"><img src="images/results_compact.png" width="100%">From left to right, ground truth, L2 inversion, DL inversion, combined L2-DL inversion.</a>
+									</div>
+									<article>
+										<p>
+											<br>
+											One carbon capture and storage technology currently deployed worldwide is CO2 geological storage. The technology involves separating and capturing CO2 emitted from large-scale fixed sources, such as cement, petrochemical, or coal-fired power plants, and storing it in underground saline formations. It holds promise as one of the most practical, immediate-effect, and near-term technology. However, ongoing monitoring of these geological storage sites is mandated by regulatory authorities and will need to demonstrate volume storage integrity over long periods. A passive measure of density distribution changes in the subsurface, 4D gravity monitoring is a technique of interest as it is low-cost, rapid, and has a minimal environmental impact.
+											<br><br>We developed a deep learning (DL) approach to invert simulated gravity data to 3D subsurface rock/flow properties. The target application of this algorithm is the prediction of subsurface CO2 plumes as a complementary tool for monitoring CO2 sequestration deployments. Our proposed approaches outperform traditional inversion methods and produce high-resolution, 3D subsurface reconstructions in near real-time. The figure above highlights the results of two of our proposed approaches. More details and results can be found <a href="https://arxiv.org/abs/2209.02850" target="_blank" rel="noopener noreferrer">here</a>.
+										</p>
+									</article>
+
 
 								</div>
 							</section>
@@ -127,13 +142,13 @@
 									<div class="container">
 										<header class="major">
 											<h2></h2>
-											<p>Selected Publications and Presentations</p>
+											<p>Selected Publications</p>
 										</header>
 										<div class="table-wrapper">
 											<table>
-												<thead>
-													<tr><h4>Publications</h4></tr>
-												</thead>
+<!--												<thead>-->
+<!--													<tr><h4>Publications</h4></tr>-->
+<!--												</thead>-->
 												<tbody>
 													<tr>
 																											
@@ -143,8 +158,7 @@
 															</ul>
 														</td>
 														<td style="vertical-align: top">
-															<strong>PocketNet: A Smaller Neural Network for 3D Medical Image Analysis</strong><br>
-															Celaya, A., Actor, J. A., Muthusivarajan, R., Gates, E., Chung, C., Schellingerhout, D., Riviere, B, and Fuentes, D. in IEEE Transactions on Medical Imaging, 2022, doi: 10.1109/TMI.2022.3224873.
+															A. Celaya et al., "PocketNet: A Smaller Neural Network For Medical Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2022.3224873.
 														</td>
 													</tr>
 													<tr>
@@ -154,39 +168,38 @@
 															</ul>
 														</td>
 														<td style="vertical-align: top">
-															<strong>Inversion of Time-Lapse Surface Gravity Data for Detection of 3D CO2 Plumes via Deep Learning</strong><br>
-															Celaya, A., Bertrand, D., Sun, Y., Araya-Polo, M., and Price, A.</br> <br>Submitted to IEEE Transactions on Geosciences and Remote Sensing. </br> <br>Under review, 2022.</br>
+															A. Celaya, B. Denel, Y. Sun, M. Araya-Polo, and A. Price, "Inversion of Time-Lapse Surface Gravity Data for Detection of 3D CO2 Plumes via Deep Learning," submitted to IEEE Transactions on Geosciences and Remote Sensing, under review, 2022.
 														</td>
 													</tr>
 												</tbody>
 											</table>
 										</div>
 
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr><h4>Presentations</h4></tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td></td>
-														<td>
-															<strong>Small Convolutional Neural Networks for Efficient 3D Medical Image Segmentation</strong><br>
-															Celaya, A., Actor, J. A., Muthusivarajan, R., Gates, E., Chung, C., Schellingerhout, D., Riviere, B, and Fuentes, D.</br>
-															63rd  American Association of Physicists in Medicine Annual Meeting, July 2021
-													</tr>
+<!--										<div class="table-wrapper">-->
+<!--											<table>-->
+<!--												<thead>-->
+<!--													<tr><h4>Presentations</h4></tr>-->
+<!--												</thead>-->
+<!--												<tbody>-->
+<!--													<tr>-->
+<!--														<td></td>-->
+<!--														<td>-->
+<!--															<strong>Small Convolutional Neural Networks for Efficient 3D Medical Image Segmentation</strong><br>-->
+<!--															Celaya, A., Actor, J. A., Muthusivarajan, R., Gates, E., Chung, C., Schellingerhout, D., Riviere, B, and Fuentes, D.</br>-->
+<!--															63rd  American Association of Physicists in Medicine Annual Meeting, July 2021-->
+<!--													</tr>-->
 
-													<tr>
-														<td></td>
-														<td>
-															<strong>Imaging Based Prediction of Proliferative Foci as a Target for Surgical Intervention Across Glioma Grades</strong><br>
-															Gates, E., Celaya, A., Suki, D., Weinberg, J., Prabhu, S., Fuentes, D., and Schellingerhout, D.</br>
-															63rd American Association of Physicists in Medicine Annual Meeting, July 2021
-														</td>
-													</tr>
-												</tbody>
-											</table>
-										</div>
+<!--													<tr>-->
+<!--														<td></td>-->
+<!--														<td>-->
+<!--															<strong>Imaging Based Prediction of Proliferative Foci as a Target for Surgical Intervention Across Glioma Grades</strong><br>-->
+<!--															Gates, E., Celaya, A., Suki, D., Weinberg, J., Prabhu, S., Fuentes, D., and Schellingerhout, D.</br>-->
+<!--															63rd American Association of Physicists in Medicine Annual Meeting, July 2021-->
+<!--														</td>-->
+<!--													</tr>-->
+<!--												</tbody>-->
+<!--											</table>-->
+<!--										</div>-->
 									</div>
 								</section>
 
@@ -208,7 +221,7 @@
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>Last updated: November 2022</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>Last updated: December 2022</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
